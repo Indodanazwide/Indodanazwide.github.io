@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bukeka Nxumalo</title>
+
+    <!-- Styles link -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!--    Header      -->
+    <!-- Header -->
     <header>
         <!-- Navigation -->
-        <nav id="nav">
+        <nav>
             <!-- Logo -->
-            <div class="nav-logo">
-                <img src="images/logo.png" alt="Bukeka Nxumalo Logo" class="logo">
-            </div>
+            <section class="nav-logo">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </section>
 
-            <!-- Hamburger Menu -->
+            <!-- Hamburger menu(Visible on smaller screens) -->
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -24,23 +26,25 @@
             </div>
 
             <!-- Links -->
-            <div class="nav-links">
+            <section class="nav-links">
                 <ul>
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
+            </section>
         </nav>
 
-        <!-- Hero Section -->
-        <section id="hero">
-            <!-- Hero Title -->
-            <div class="hero-title">
+        <!-- Hero -->
+        <article class="hero" id="hero">
+            <!-- Hero title and social links -->
+            <section class="hero-content">
+                <!-- Title -->
                 <h1>Bukeka Nxumalo</h1>
                 <p>Software Developer</p>
-            
+
+                <!-- Social links -->
                 <ul class="contact-social-links">
                     <li><a href="https://www.instagram.com/indodanazwide"><img src="images/instagram.png" class="social-icon" alt="Instagram"></a></li>
                     <li><a href="https://github.com/Indodanazwide"><img src="images/github.png" class="social-icon" alt="GitHub"></a></li>
@@ -48,116 +52,97 @@
                     <li><a href="https://twitter.com/indodanazwide"><img src="images/twitter-alt.png" class="social-icon" alt="Twitter"></a></li>
                     <li><a href="mailto:nxumalobukeka66@gmail.com"><img src="images/email.png" class="social-icon" alt="Email"></a></li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </article>
     </header>
 
-    <!--    Main        -->
+    <!-- Main -->
     <main>
-        <!-- About Me Section -->
-        <section class="about-me" id="about">
-            <div class="bio" id="bio-box">
-                <div class="text-container">
-                    <div class="text">
-                        <h2>About Me</h2>
-                        <p>Hi, I'm Bukeka Nxumalo, a second-year Bachelor of Information and Communication Technology student at 
-                            <a href="https://www.dut.ac.za/" target="_blank" rel="noopener noreferrer" class="styled-link">Durban University of Technology</a> 
-                            from South Africa. I specialize in front-end development and have a keen interest in creating intuitive and engaging user experiences.
-                        </p>
-                        <p>With a solid foundation in HTML, CSS, and JavaScript, I am currently expanding my skills in modern frameworks like React. 
-                            My passion for problem-solving and algorithmic games drives me to continuously improve my coding abilities.
-                        </p>
-                        <p>When I'm not coding, you can find me exploring new technologies, participating in coding challenges, or playing strategy games. 
-                            My goal is to become a proficient <strong>software developer</strong>, with a strong focus on both front-end and back-end development.
-                        </p>
-                        <p>I am excited to showcase my projects and skills here. Feel free to browse through my portfolio and get in touch if you'd like to collaborate 
-                            or learn more about my work.
-                        </p>
-                    </div>
-                    <div class="image" id="about-img">
-                        <img src="images/aboutme.png" alt="Bukeka Nxumalo" class="about-image">
-                    </div>
-                </div>
-            </div>
-            
-            <div class="resume">
-                <div class="image">
-                    <img src="images/hero.png" alt="Bukeka Nxumalo" class="about-image" id="about-image">
-                </div>
+        <!-- About me -->
+        <article class="about" id="about">
+            <!-- Bio -->
+            <section class="bio">
+                <!-- Text -->
+                <h2>About Me</h2>
+                <p>Hi, I'm Bukeka Nxumalo, a second-year Bachelor of Information and Communication Technology student at 
+                    <a href="https://www.dut.ac.za/" target="_blank" rel="noopener noreferrer" class="styled-link">Durban University of Technology</a> 
+                    from South Africa. I specialize in front-end development and have a keen interest in creating intuitive and engaging user experiences.
+                </p>
+                <p>With a solid foundation in HTML, CSS, and JavaScript, I am currently expanding my skills in modern frameworks like React. 
+                    My passion for problem-solving and algorithmic games drives me to continuously improve my coding abilities.
+                </p>
+
+                <!-- Image -->
+                <img src="images/aboutme.png" alt="Bukeka Nxumalo" class="bio-image">
+
+                <p>Also with my foundation in C# and SQL, I am also learning ASP.NET Framework to enhance my back-end skills togather with my basic skills in databases.
+                    My goal is to become a proficient <strong>software developer</strong>, with a strong focus on full-stack development.
+                </p>
+                <p>I am excited to showcase my projects and skills here. Feel free to browse through my portfolio and get in touch if you'd like to collaborate 
+                    or learn more about my work.
+                    <!-- Link 'learn more about my work' to where I document my projects -->
+                </p>
+            </section>
+
+            <!-- Resume -->
+            <section class="resume">
+                <!-- Image -->
+                <!-- <img src="images/aboutme.png" alt="Bukeka Nxumalo" class="about-image"> -->
+
+                <!-- Resume -->
+                <h2>Resume</h2>
+
                 <br>
-                <div class="resume-details">
-                    <h2>Resume</h2>
-                    <br>
-                    <div class="resume-section">
-                        <br>
-                        <h3>Education</h3>
-                        <p><strong>Bachelor of Information and Communication Technology</strong>, Durban University of Technology, Expected Graduation: November 2026</p>
-                    </div>
-                    <div class="resume-section">
-                        <h3>Project Experience</h3>
-                        <p><strong>ASP.NET MVC School Project</strong>, Durban, KwaZulu-Natal, Facility Management Application, March 2024 - May 2024</p>
-                        <ul class="resume-list">
-                            <li><strong>Full Stack Developer:</strong></li>
-                            <li><strong>Database Administrator:</strong></li>
-                        </ul>
-                    </div>
-                    <div class="resume-section">
-                        <h3>Leadership Experience</h3>
-                        <p><strong>SCRUM Master:</strong> ASP.NET MVC School Project.</p>
-                    </div>
-                    <div class="resume-section">
-                        <h3>Skills</h3>
-                        <p>ASP.NET, C#, Database Administration, Web Development, Systems Analysis</p>
-                    </div>
-                    <div class="resume-section">
-                        <h3>Interests</h3>
-                        <p>Software Development, Full Stack Development</p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Portfolio Section -->
-        <section class="portfolio" id="portfolio">
-            <div class="projects">
-                <h2>Projects</h2>
-                <div class="project">
-                    <div class="project-details">
-                        <h3>ASP.NET MVC School Project</h3>
-                        <p><strong>Purpose:</strong> Facility Management Application</p>
-                        <p><strong>Technologies Used:</strong> ASP.NET MVC, C#, SQL</p>
-                        <p><strong>Contributions:</strong> As a Full Stack Developer, I developed and maintained both the front-end and back-end of the application. I implemented user interfaces with ASP.NET MVC and C#. Additionally, as a Database Administrator, I designed and optimized SQL databases, ensured data integrity, and performed regular backups and recovery tasks.</p>
-                    </div>
-                </div>
-                <!-- Add more projects as needed -->
-            </div>
-            <div class="skills">
-                <h2>Skills</h2>
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <ul>
-                        <li><span class="skill-name">JavaScript</span><span class="skill-level">Advanced</span></li>
-                        <li><span class="skill-name">C#</span><span class="skill-level">Intermediate</span></li>
-                        <li><span class="skill-name">HTML & CSS</span><span class="skill-level">Advanced</span></li>
-                        <li><span class="skill-name">SQL</span><span class="skill-level">Advanced</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Frameworks & Libraries</h3>
-                    <ul>
-                        <li><span class="skill-name">React</span><span class="skill-level">Advanced</span></li>
-                        <li><span class="skill-name">.NET Framework</span><span class="skill-level">Intermediate</span></li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </section>
+                <h3>Education</h3>
+                <p><strong>Bachelor of Information and Communication Technology</strong>, Durban University of Technology, Expected Graduation: November 2026</p>
 
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <div class="contact-box">
+                <h3>Project Experience</h3>
+                <p><strong>ASP.NET MVC School Project</strong>, Durban, KwaZulu-Natal, Facility Management Application, March 2024 - May 2024</p>
+                <ul class="resume-list">
+                    <li><strong>SCRUM Master:</strong></li>
+                    <li><strong>Documentation Specialist:</strong></li>
+                </ul>
+
+                <br>
+
+                <h3>Leadership Experience</h3>
+                <p><strong>SCRUM Master:</strong> ASP.NET MVC School Project.</p>
+                
+                <h3>Skills</h3>
+                <p>ASP.NET, C#, Database Administration, Web Development, Systems Analysis</p>
+
+                <h3>Interests</h3>
+                <p>Software Development, Project Management, Data Analysis and Systems Administration</p>
+            </section>
+        </article>
+
+        <!-- Portfolio -->
+        <article class="portfolio" id="portfolio">
+            <!-- Projects -->
+            <section class="project">
+                <!-- Add project I have made -->
+            </section>
+
+
+            <!-- Skills -->
+            <section class="skills">
+                <!-- Frontend -->
+
+                <!-- Backend -->
+
+                <!-- Tools -->
+
+                <!-- Deployment -->
+            </section>
+        </article>
+
+        <!-- Aside -->
+        <aside id="contact">
+            <!-- Contact brief -->
+            <section class="contact-box">
                 <h2>Contact</h2>
-                <ul class="contact-social-links">
+                <ul class="aside-social-links">
                     <li><a href="https://www.instagram.com/indodanazwide"><img src="images/instagram.png" class="social-icon" alt="Instagram"></a></li>
                     <li><a href="https://github.com/Indodanazwide"><img src="images/github.png" class="social-icon" alt="GitHub"></a></li>
                     <li><a href="https://www.linkedin.com/in/bukekanxumalo"><img src="images/linkedin.png" class="social-icon" alt="LinkedIn"></a></li>
@@ -168,6 +153,8 @@
                 <p>Thank you for visiting my portfolio! Your insights and opinions are incredibly important to me.</p>
                 <p>Whether you have suggestions, questions, or simply want to share your thoughts, I would love to hear from you.</p>
                 <p>Please use the form below to send your feedback and help me improve. Your input makes a difference!</p>
+                
+                <!-- Form -->
                 <form id="contactForm">
                     <div class="contact-form-box">
                         <input type="text" id="name" name="name" required>
@@ -187,12 +174,16 @@
                     </div>
                     <button type="submit">Submit</button>
                 </form>
-            </div>
-        </section>
+            </section>
+        </aside>
     </main>
+
+    <!-- Footer -->
     <footer>
-        <div class="footer-container">
-            <div class="contact-info">
+        <!-- Footer details -->
+        <article class="footer-details">
+            <!-- Contact -->
+            <section class="footer-contact-info">
                 <h3>Contact</h3>
                 <ul class="contact-social-links">
                     <li><a href="https://www.instagram.com/indodanazwide"><img src="images/instagram.png" class="social-icon" alt="Instagram"></a></li>
@@ -201,34 +192,39 @@
                     <li><a href="https://twitter.com/indodanazwide"><img src="images/twitter-alt.png" class="social-icon" alt="Twitter"></a></li>
                     <li><a href="mailto:nxumalobukeka66@gmail.com"><img src="images/email.png" class="social-icon" alt="Email"></a></li>
                 </ul>
-                <br>
                 <p>Check out my portfolio and contact me for collaborations.</p>
-                <p>Download my resume. <a href="path/to/your/resume.pdf" download="Bukeka_Nxumalo_Resume.pdf">Click here to download</a></p>
                 <p>Tel: +27 68 592 5710</p>
-            </div>
+                <p>Download my resume. <a href="path/to/your/resume.pdf" download="Bukeka_Nxumalo_Resume.pdf">Click here to download</a></p>
+            </section>
 
-            <div class="about-info">
+            <!-- Brief about me -->
+            <section class="footer-about-info">
                 <h3>About</h3>
                 <p>I'm Bukeka Nxumalo, a second-year ICT student specializing in front-end development with skills in HTML, CSS, JavaScript, and React.</p>
                 <p>I aim to become a proficient software developer. Outside of coding, I explore new technologies, participate in coding challenges, and play strategy games.</p>
-            </div>
-        </div>
-        <hr>
-        <div class="container">
-            <div class="copyright">
-                <p>&copy; 2024 Bukeka Nxumalo</p>
-            </div>
-            <div class="copyright-with-links">
-                <ul class="contact-social-links">
-                    <li><a href="https://www.instagram.com/indodanazwide"><img src="images/instagram.png" class="social-icon" alt="Instagram"></a></li>
-                    <li><a href="https://github.com/Indodanazwide"><img src="images/github.png" class="social-icon" alt="GitHub"></a></li>
-                    <li><a href="https://www.linkedin.com/in/bukekanxumalo"><img src="images/linkedin.png" class="social-icon" alt="LinkedIn"></a></li>
-                    <li><a href="https://twitter.com/indodanazwide"><img src="images/twitter-alt.png" class="social-icon" alt="Twitter"></a></li>
-                    <li><a href="mailto:nxumalobukeka66@gmail.com"><img src="images/email.png" class="social-icon" alt="Email"></a></li>
+            </section>
+
+            <!-- Quick links -->
+            <section class="footer-quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-        </div>
+            </section>
+        </article>
+
+        <hr>
+
+        <!-- Copyrights -->
+        <section class="copyright">
+            <p>&copy; 2024 Bukeka Nxumalo</p>
+        </section>
     </footer>
+
+    <!-- JavaScript link -->
     <script src="script.js"></script>
 </body>
 </html>
