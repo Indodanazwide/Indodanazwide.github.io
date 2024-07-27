@@ -105,6 +105,7 @@ body {
     .nav-links a {
         text-decoration: none;
         color: black;
+        line-height: 1.5;
     }
 
     .nav-links a:hover {
@@ -265,6 +266,10 @@ body {
     .resume-download:hover {
         border: 1px solid #2ecc71;
         color: #2ecc71;
+    }
+
+    .resume-contact-details h4 {
+        margin-bottom: 10px;
     }
     
     /* Aside form */
