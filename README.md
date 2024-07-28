@@ -65,8 +65,4 @@ Feel free to reach out to me via the following platforms:
 - [Portfolio Website](https://indodanazwide.github.io/)
 - [GitHub Profile](https://github.com/Indodanazwide)
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
